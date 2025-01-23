@@ -59,5 +59,6 @@ Material:
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
     - _Color2: {r: 0, g: 0.015138149, b: 1, a: 1}
     - _Frecuencia: {r: 0, g: 10, b: 0, a: 0}
+    - _Light: {r: 0.26, g: 1.52, b: 1.08, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
