@@ -749,8 +749,8 @@
     "m_ObjectId": "0728a4f484d34fd48d81028b48850fd5",
     "m_Title": "Texture 2D",
     "m_Position": {
-        "x": -681.9999389648438,
-        "y": 547.9999389648438
+        "x": -682.0,
+        "y": 548.0
     }
 }
 
@@ -1156,7 +1156,7 @@
     "m_Title": "Combinar 2 colores",
     "m_Position": {
         "x": -1201.0,
-        "y": -893.9999389648438
+        "y": -894.0
     }
 }
 
@@ -1466,8 +1466,8 @@
     "m_ObjectId": "299cd50be66c49d69dbaf66f3bca100a",
     "m_Title": "Iluminacion dinamica",
     "m_Position": {
-        "x": -921.9999389648438,
-        "y": -447.9999694824219
+        "x": -922.0,
+        "y": -448.0
     }
 }
 
@@ -2085,8 +2085,8 @@
     "m_ObjectId": "4b7cc67f40f9445cbb4d832d4371cc7c",
     "m_Title": "Multiply Group",
     "m_Position": {
-        "x": -1111.999755859375,
-        "y": -1321.9998779296875
+        "x": -1112.0,
+        "y": -1322.0
     }
 }
 
@@ -2447,7 +2447,7 @@
     "m_ObjectId": "600bc3ef3e3549808b955bfa20d205ee",
     "m_Title": "Add group",
     "m_Position": {
-        "x": -671.9999389648438,
+        "x": -672.0,
         "y": -1323.0
     }
 }
@@ -2691,7 +2691,7 @@
     "m_ObjectId": "6ba7264a45e747319e2e5c7e146a25fe",
     "m_Title": "Normal Map",
     "m_Position": {
-        "x": -120.00006103515625,
+        "x": -120.0,
         "y": -1318.0
     }
 }
@@ -3417,8 +3417,8 @@
     "m_ObjectId": "946fd111f6514a48a896dededd1fa6c5",
     "m_Title": "Lerp Group",
     "m_Position": {
-        "x": -969.9999389648438,
-        "y": -8.99997329711914
+        "x": -970.0,
+        "y": -9.0
     }
 }
 
