@@ -24,19 +24,29 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 1eb19cbf9af5c59469c20bc903e1376f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _ALPHATEST_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: TransparentCutout
   disabledShaderPasses:
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_51d0a9792f244175b9d2fbaf3c9804ea_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 89b800d43a7f479409ed495e539ef125, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fdaa27a1a69f4cf5b965f98f0eb391d4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 34d4062ead32c484d99888da0c4f0a42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -55,14 +65,29 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Cutoff: 1.64
-    - _Glow: 0.05
+    - _AlphaClip: 1
+    - _AlphaToMask: 1
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 2
+    - _Cutoff: 3
+    - _DstBlend: 0
+    - _Glow: 0.12
+    - _Glow_Intensity: 0.5
     - _Noise_Scale: 60
-    - _Noise_Strength: 5
+    - _Noise_Strength: 10
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Glow_Color: {r: 3.9879327, g: 15.819605, b: 15.951734, a: 0}
+    - _Glow_Color: {r: 0.40182763, g: 85.187256, b: 6.953362, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

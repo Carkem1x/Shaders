@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SceneDepthMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: d484eae52bd98b64bb66b36daf1529ac, type: 3}
+  m_Name: Shader Graphs_OutLine
+  m_Shader: {fileID: -6465566751694194690, guid: a8635ee73ef7dd4459b70015d4325cc5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,14 +38,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Outline_Intensity: -0.24
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Background: {r: 1, g: 0.5754003, b: 0, a: 0}
-    - _FrontColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Outline_Color: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &620444958601827381
+--- !u!114 &4350267607050010238
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
