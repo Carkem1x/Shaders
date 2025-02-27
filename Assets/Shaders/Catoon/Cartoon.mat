@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Intersection
-  m_Shader: {fileID: -6465566751694194690, guid: 4574553eb6f5eaa479455f2d9a88b418, type: 3}
+  m_Name: Cartoon
+  m_Shader: {fileID: -6465566751694194690, guid: 2a4108ae85f22f44f9249d6e030675fd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -38,16 +38,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BordeDeLimite: 0.012
-    - _BoreDeLimite: 0.018
-    - _Intersection_Power: 25
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors:
-    - _Color_GLow: {r: 16, g: 15.416856, b: 0, a: 0}
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &7241459443712794336
+--- !u!114 &3170597284486155925
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

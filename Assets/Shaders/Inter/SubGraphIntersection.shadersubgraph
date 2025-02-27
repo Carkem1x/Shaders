@@ -296,7 +296,7 @@
     "m_ObjectId": "9eb219f3ddac4b9da4e4a29b2e47416a",
     "m_Title": "Distancia por detras del objeto",
     "m_Position": {
-        "x": -259.0,
+        "x": -259.0000305175781,
         "y": -264.0
     }
 }
@@ -450,7 +450,7 @@
     "m_ObjectId": "d2840d60c9d849d18b8bfb8fa874f447",
     "m_Title": "Distancia del objeto",
     "m_Position": {
-        "x": -259.0,
+        "x": -259.0000305175781,
         "y": -59.0
     }
 }
