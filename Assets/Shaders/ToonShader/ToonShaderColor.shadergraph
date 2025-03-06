@@ -694,8 +694,8 @@
     "m_ObjectId": "3cdcd75550d14ee1946b484face8b204",
     "m_Title": "Color",
     "m_Position": {
-        "x": -116.0,
-        "y": -644.0
+        "x": -116.0001220703125,
+        "y": -643.9999389648438
     }
 }
 
@@ -1179,7 +1179,7 @@
     "m_ObjectId": "74ecfa1cb2ae427cbabf149559f63b7f",
     "m_Title": "Texture",
     "m_Position": {
-        "x": -168.9998779296875,
+        "x": -169.0,
         "y": -1215.0
     }
 }

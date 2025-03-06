@@ -56,14 +56,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _Fresnel_Power: 6.04
-    - _Gradient: 2
+    - _Gradient: 0.72
     - _Offset: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 0.13
     m_Colors:
-    - _Color_A: {r: 0.04805981, g: 0.3773585, b: 0.058390748, a: 0}
+    - _Color_A: {r: 0, g: 0.3679245, b: 0.013140199, a: 0}
     - _Color_B: {r: 0, g: 0, b: 0, a: 0}
-    - _Color_Point: {r: 0, g: 2, b: 0.07843113, a: 0}
+    - _Color_Point: {r: 2.670157, g: 0.29860604, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
