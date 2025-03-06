@@ -8,6 +8,12 @@
         },
         {
             "m_Id": "2484b0c35bd04576a809c49800523d85"
+        },
+        {
+            "m_Id": "14982587ca274935a90e61be00e26375"
+        },
+        {
+            "m_Id": "6da1efed8c1a476481e4f0d5ee7f081c"
         }
     ],
     "m_Keywords": [],
@@ -38,11 +44,31 @@
         },
         {
             "m_Id": "f8ac26342f54419f9cf57f772abd8f0e"
+        },
+        {
+            "m_Id": "4ce4963649844275a12709ecc4d30a3d"
+        },
+        {
+            "m_Id": "874a1cd82fdf49519ff10e7a76c0d94c"
         }
     ],
     "m_GroupDatas": [],
     "m_StickyNoteDatas": [],
     "m_Edges": [
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "4ce4963649844275a12709ecc4d30a3d"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "5f7a69bac4a244bda356fa1807545c74"
+                },
+                "m_SlotId": 1
+            }
+        },
         {
             "m_OutputSlot": {
                 "m_Node": {
@@ -55,6 +81,20 @@
                     "m_Id": "bc05315b18ac48b69c8c64a5c8ddcc6d"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "874a1cd82fdf49519ff10e7a76c0d94c"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "e58a9803a3174fe788d56a8733823c69"
+                },
+                "m_SlotId": 2
             }
         },
         {
@@ -209,6 +249,36 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
+    "m_ObjectId": "14982587ca274935a90e61be00e26375",
+    "m_Guid": {
+        "m_GuidSerialized": "c66131d8-2347-47ac-816e-0ae50d1720f4"
+    },
+    "m_Name": "FadeTexture",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "FadeTexture",
+    "m_DefaultReferenceName": "_FadeTexture",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"d8f5ef956921e814caa15c860cfb803f\",\"type\":3}}",
+        "m_Guid": ""
+    },
+    "isMainTexture": false,
+    "useTilingAndOffset": false,
+    "m_Modifiable": true,
+    "m_DefaultType": 0
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SubGraphOutputNode",
     "m_ObjectId": "163f635891e9412bae59ef7ac8b3dacc",
     "m_Group": {
@@ -320,6 +390,21 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "24dae8e2bab046179d5a3bf808ebd771",
+    "m_Id": 0,
+    "m_DisplayName": "FadeSample",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "2e35cd945d6c49e1ab0958f35d612c9c",
     "m_Id": 0,
     "m_DisplayName": "Attenuation",
@@ -364,6 +449,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "4ce4963649844275a12709ecc4d30a3d",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -266.0000305175781,
+            "y": -227.00003051757813,
+            "width": 149.00003051757813,
+            "height": 34.00001525878906
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "b81392a8894e4e999921414f2e634c15"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "14982587ca274935a90e61be00e26375"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.SampleTexture2DNode",
     "m_ObjectId": "5f7a69bac4a244bda356fa1807545c74",
     "m_Group": {
@@ -374,10 +495,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -93.4998779296875,
-            "y": -160.0,
-            "width": 207.99993896484376,
-            "height": 434.9999694824219
+            "x": -91.99999237060547,
+            "y": -193.00001525878907,
+            "width": 183.00003051757813,
+            "height": 251.0
         }
     },
     "m_Slots": [
@@ -442,6 +563,70 @@
     },
     "m_Labels": [],
     "m_Channel": 0
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "6da1efed8c1a476481e4f0d5ee7f081c",
+    "m_Guid": {
+        "m_GuidSerialized": "b12100e7-1aae-4123-bc40-306830a7b794"
+    },
+    "m_Name": "FadeSample",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "FadeSample",
+    "m_DefaultReferenceName": "_FadeSample",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "874a1cd82fdf49519ff10e7a76c0d94c",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -518.9999389648438,
+            "y": -49.00001525878906,
+            "width": 139.99996948242188,
+            "height": 33.999996185302737
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "24dae8e2bab046179d5a3bf808ebd771"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "6da1efed8c1a476481e4f0d5ee7f081c"
+    }
 }
 
 {
@@ -520,6 +705,19 @@
         "w": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
+    "m_ObjectId": "b81392a8894e4e999921414f2e634c15",
+    "m_Id": 0,
+    "m_DisplayName": "FadeTexture",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
 }
 
 {
@@ -920,6 +1118,12 @@
         },
         {
             "m_Id": "2484b0c35bd04576a809c49800523d85"
+        },
+        {
+            "m_Id": "14982587ca274935a90e61be00e26375"
+        },
+        {
+            "m_Id": "6da1efed8c1a476481e4f0d5ee7f081c"
         }
     ]
 }

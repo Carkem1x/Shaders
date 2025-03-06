@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FirftMaterial
+  m_Name: FirftMaterial 1
   m_Shader: {fileID: -6465566751694194690, guid: d42ef9476fe53d442ab18859f2b21e52, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -76,7 +76,7 @@ Material:
     - _Color: {r: 0, g: 1, b: 0.049598217, a: 0}
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
     - _Color2: {r: 0, g: 0.015138149, b: 1, a: 1}
-    - _EmmtionColor: {r: 182.43494, g: 57.796722, b: 54.214153, a: 0}
+    - _EmmtionColor: {r: 110.293594, g: 11.590876, b: 0, a: 0}
     - _Frecuencia: {r: 0, g: 10, b: 0, a: 0}
     - _Light: {r: 0.3, g: 0.34, b: 0.09, a: 0}
   m_BuildTextureStacks: []

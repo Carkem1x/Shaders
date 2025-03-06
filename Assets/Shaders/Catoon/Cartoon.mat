@@ -24,8 +24,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _FadeToon:
+        m_Texture: {fileID: 2800000, guid: 3952e6113dd0cab4da9305ab868bf1b6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_5f7a69bac4a244bda356fa1807545c74_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: d8f5ef956921e814caa15c860cfb803f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9ec43366c0ca4155acd8a293d9883b06_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: b5fe6a50b8dbb38448a7893e3e9aefb3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -45,9 +53,10 @@ Material:
     - _Attenuation: 0
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Smoothness: 0.48
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
-    - _ShaderColor: {r: 0.7686275, g: 0.16862746, b: 0.10980393, a: 0}
+    - _ShaderColor: {r: 0.093725204, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3170597284486155925
