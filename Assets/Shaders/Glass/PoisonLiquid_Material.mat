@@ -39,7 +39,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _Fill: 0.22
-    - _Fresnel_power: 8.71
+    - _Fresnel_power: 6.36
+    - _PositionX: 0.03
+    - _PositionZ: -0.13
     - _QueueControl: 0
     - _QueueOffset: 0
     - _WobbleX: 0.11
