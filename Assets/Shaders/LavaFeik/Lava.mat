@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lava_Material
-  m_Shader: {fileID: -6465566751694194690, guid: f32f6584b3086e9418ba81f7c6736f95, type: 3}
+  m_Name: Lava
+  m_Shader: {fileID: -6465566751694194690, guid: dc0307db62b2a7b4abea1a4da7244ff5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,9 +24,9 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Flow_Map:
+    - _Flow_Normal_Texture:
         m_Texture: {fileID: 2800000, guid: a160329632465064781de3c831106a10, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Lava_Texture:
         m_Texture: {fileID: 2800000, guid: 9971a6f6b30309f488e6529640b24724, type: 3}
@@ -50,23 +50,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Angle_Change_Speed: 0.39
-    - _Angle_Offset: 5.23
-    - _Flow_Speed: 0.02
-    - _Flow_Strength: 0.025
-    - _Heightmap_Stength: 1
-    - _Island_Density: 4.3
-    - _Lava_Speed: 0
+    - _Angle_Offset: 1
+    - _Flow_Strenght: 0.03
+    - _Height_Stength: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Thickness: 0.06
-    - _Thickness_Falloff: 0.01
+    - _Rotation_Angle_Speed: 1
+    - _Thickness: 0.6
+    - _Thickness_Falloff: 5
     m_Colors:
-    - _Lava_Color: {r: 32, g: 19.760855, b: 0, a: 0}
-    - _Rock_Color: {r: 0.41509426, g: 0.025453912, b: 0.025453912, a: 0}
+    - _Lava_Color: {r: 2, g: 1.263386, b: 0, a: 0}
+    - _Lava_Speed: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Rock_Color: {r: 0.8313726, g: 0.17380726, b: 0.10588237, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &3349330779076378425
+--- !u!114 &2024532926006992788
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
