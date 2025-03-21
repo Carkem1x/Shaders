@@ -7,14 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bottle_Material
-  m_Shader: {fileID: -6465566751694194690, guid: 6da7845f3a08aae4385c2ebf8c4d8cd1, type: 3}
+  m_Name: Lava_Material
+  m_Shader: {fileID: -6465566751694194690, guid: f32f6584b3086e9418ba81f7c6736f95, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _ALPHAPREMULTIPLY_ON
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -26,6 +24,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Flow_Map:
+        m_Texture: {fileID: 2800000, guid: a160329632465064781de3c831106a10, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Lava_Texture:
+        m_Texture: {fileID: 2800000, guid: 9971a6f6b30309f488e6529640b24724, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Rock_Texture:
+        m_Texture: {fileID: 2800000, guid: 710a910cde0d21d4c879d64be4720bbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,31 +50,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _BlendModePreserveSpecular: 1
-    - _CastShadows: 1
-    - _Cull: 2
-    - _DistortionStrength: 2
-    - _DstBlend: 10
-    - _NormalStrength: 0
+    - _Angle_Change_Speed: 0.39
+    - _Angle_Offset: 5.23
+    - _Flow_Speed: 0.02
+    - _Flow_Strength: 0.025
+    - _Heightmap_Stength: 1
+    - _Island_Density: 10.26
+    - _Lava_Speed: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _Reflection_Intensity: 0
-    - _SrcBlend: 1
-    - _Surface: 1
-    - _Tiling_Noise: 500
-    - _WorkflowMode: 1
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _Thickness: 0.05
+    - _Thickness_Falloff: 0.01
     m_Colors:
-    - _BottleColor: {r: 0.5294118, g: 0.29803923, b: 0.4384518, a: 0.7529412}
+    - _Lava_Color: {r: 16, g: 9.880427, b: 0, a: 0}
+    - _Rock_Color: {r: 0.41509426, g: 0.025453912, b: 0.025453912, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1135495250318132047
+--- !u!114 &3349330779076378425
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
