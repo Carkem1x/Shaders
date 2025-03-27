@@ -51,18 +51,18 @@ Material:
     m_Ints: []
     m_Floats:
     - _Angle_Offset: 5
-    - _Flow_Strenght: 0.03
+    - _Flow_Strenght: 0.01
     - _Height_Stength: 1
-    - _Island_Density: 4
+    - _Island_Density: 6
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rotation_Angle_Speed: 0.3
-    - _Thickness: 0.06
+    - _Thickness: 0.05
     - _Thickness_Falloff: 0.01
     m_Colors:
     - _Lava_Color: {r: 16, g: 10.107088, b: 0, a: 0}
     - _Lava_Speed: {r: 0, g: 0, b: 0, a: 0}
-    - _Rock_Color: {r: 0.4156863, g: 0.023529414, b: 0.023529414, a: 0}
+    - _Rock_Color: {r: 0.8867924, g: 0.22509353, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2024532926006992788
