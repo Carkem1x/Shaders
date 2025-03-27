@@ -63,9 +63,6 @@
         },
         {
             "m_Id": "45e8301dad1f417a8716a7230245bd2d"
-        },
-        {
-            "m_Id": "9df70e23b5c64bd899d76cf19391c519"
         }
     ],
     "m_Nodes": [
@@ -2091,7 +2088,7 @@
     "m_ObjectId": "2188b52d8dd240f58953ac523a72eaef",
     "m_Title": "Threshold for lava",
     "m_Position": {
-        "x": -433.0000305175781,
+        "x": -433.0,
         "y": -1327.0001220703125
     }
 }
@@ -4813,14 +4810,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
-    "m_ObjectId": "9df70e23b5c64bd899d76cf19391c519",
-    "m_Name": "Category",
-    "m_ChildObjectList": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "9ebb2f62e07e47b783fdd9ee7c11d56f",
     "m_Id": 3,
@@ -6846,7 +6835,7 @@
     "m_Title": "Voronoi Pattern",
     "m_Position": {
         "x": -1453.0,
-        "y": -953.0000610351563
+        "y": -953.0
     }
 }
 

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lava
-  m_Shader: {fileID: -6465566751694194690, guid: dc0307db62b2a7b4abea1a4da7244ff5, type: 3}
+  m_Name: Shader Graphs_Epic Cristal
+  m_Shader: {fileID: -6465566751694194690, guid: bcc52a0cf5a589547ae30f550c141aa7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -24,16 +24,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Flow_Normal_Texture:
-        m_Texture: {fileID: 2800000, guid: a160329632465064781de3c831106a10, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Lava_Texture:
-        m_Texture: {fileID: 2800000, guid: 9971a6f6b30309f488e6529640b24724, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Rock_Texture:
-        m_Texture: {fileID: 2800000, guid: 710a910cde0d21d4c879d64be4720bbc, type: 3}
+    - _Base_Texture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -50,22 +42,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Angle_Offset: 5
-    - _Flow_Strenght: 0.03
-    - _Height_Stength: 1
-    - _Island_Density: 4
+    - _Noise_Size: 20
+    - _Noise_Strenght: -0.21
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotation_Angle_Speed: 0.3
-    - _Thickness: 0.06
-    - _Thickness_Falloff: 0.01
     m_Colors:
-    - _Lava_Color: {r: 16, g: 10.107088, b: 0, a: 0}
-    - _Lava_Speed: {r: 0, g: 0, b: 0, a: 0}
-    - _Rock_Color: {r: 0.4156863, g: 0.023529414, b: 0.023529414, a: 0}
+    - _Base_Color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &2024532926006992788
+--- !u!114 &8750988006103208851
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
