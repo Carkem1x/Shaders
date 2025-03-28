@@ -29,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Lava_Texture:
-        m_Texture: {fileID: 2800000, guid: 9971a6f6b30309f488e6529640b24724, type: 3}
+        m_Texture: {fileID: 2800000, guid: c145c00d4ceb25a458efeb11592fcdd3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Rock_Texture:
@@ -60,9 +60,9 @@ Material:
     - _Thickness: 0.05
     - _Thickness_Falloff: 0.01
     m_Colors:
-    - _Lava_Color: {r: 16, g: 10.107088, b: 0, a: 0}
+    - _Lava_Color: {r: 0, g: 74.22817, b: 169.27788, a: 0}
     - _Lava_Speed: {r: 0, g: 0, b: 0, a: 0}
-    - _Rock_Color: {r: 0.8867924, g: 0.22509353, b: 0, a: 0}
+    - _Rock_Color: {r: 0, g: 0.16040947, b: 0.4245283, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2024532926006992788

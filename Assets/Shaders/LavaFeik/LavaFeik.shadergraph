@@ -501,6 +501,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "4fd5161d0ca94e1b9407c20e30a1fa1c"
+                },
+                "m_SlotId": 2
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "2682392cf91d46c296810879fb05fd4f"
+                },
+                "m_SlotId": 2
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "5914b2b58aac41e9beae3114bf376715"
                 },
                 "m_SlotId": 1
@@ -4620,8 +4634,8 @@
     "m_ObjectId": "93b65d8bd9144c81950800e1a0e6267c",
     "m_Title": "Lava Info",
     "m_Position": {
-        "x": -328.9999694824219,
-        "y": -37.99998474121094
+        "x": -329.0,
+        "y": -38.0
     }
 }
 

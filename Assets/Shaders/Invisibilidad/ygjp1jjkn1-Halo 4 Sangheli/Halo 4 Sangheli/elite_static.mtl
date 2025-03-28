@@ -1,0 +1,80 @@
+newmtl lambert6SG
+illum 4
+Kd 0.00 0.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl phong8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd storm_elite_ai_officer_armor_diff1.tif
+bump storm_elite_ai_officer_armor_normal.tif -bm 1.5
+Ni 1.00
+Ks 1.00 1.00 1.00
+newmtl phong9SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.21 0.21 0.21
+Tf 1.00 1.00 1.00
+map_Kd storm_elite_ai_anatomy_diff.tif
+bump storm_elite_ai_anatomy_normal.tif -bm 1.5
+Ni 1.00
+Ks 0.67 0.67 0.67
+newmtl phong10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd storm_elite_ai_techsuit_diff.tif
+bump storm_elite_ai_techsuit_normal.tif -bm 1
+Ni 1.00
+Ks 1.00 1.00 1.00
+newmtl phong11SG
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl phong12SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.41 0.38 0.23
+Tf 1.00 1.00 1.00
+map_Kd storm_elite_ai_general_armor_diff1.tif
+bump storm_elite_ai_general_armor_normal.tif -bm 1
+Ni 1.00
+Ks 1.00 1.00 1.00
+newmtl phong14SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd storm_elite_ai_zealot_armor_diff1.tif
+bump storm_elite_ai_zealot_armor_normal.tif -bm 1
+Ni 1.00
+Ks 1.00 1.00 1.00
+newmtl phongE1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.07 0.17 0.19
+Tf 1.00 1.00 1.00
+map_Kd storm_elite_ai_default_armor_diffa.tif
+bump storm_elite_ai_default_armor_normal.tif -bm 1.495726
+Ni 1.00
+Ks 1.00 1.00 1.00
+newmtl stormrifle:fire:lambert7SG
+illum 4
+Kd 0.16 0.43 1.00
+Ka 0.00 0.00 0.00
+Tf 0.44 0.44 0.44
+Ni 1.00
+newmtl stormrifle:fire:lambert8SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 1.00 1.00 1.00
+Tf 1.00 1.00 1.00
+Ni 1.00
