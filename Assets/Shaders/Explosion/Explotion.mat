@@ -51,7 +51,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Fresnel_Power: 1.53
+    - _Fresnel_Power: 1.7
     - _Noise_Scale: 500
     - _Opacity: 0.399
     - _QueueControl: 0
@@ -59,7 +59,7 @@ Material:
     - _Threshold: 0.3
     - _intersectionPower: 1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.59463525, b: 1, a: 0.509804}
-    - _EmissiveColor: {r: 6.2547626, g: 32.089695, b: 37.885994, a: 0}
+    - _BaseColor: {r: 1, g: 0.10625506, b: 0, a: 0.509804}
+    - _EmissiveColor: {r: 37.88599, g: 6.3473897, b: 8.161307, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
