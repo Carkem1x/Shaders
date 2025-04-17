@@ -71,10 +71,10 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 1
     - _Cull: 2
-    - _Cutoff: 0.08
+    - _Cutoff: 3.64
     - _DstBlend: 0
     - _Glow: 0.12
-    - _Glow_Intensity: 0.23
+    - _Glow_Intensity: 0.09
     - _Noise_Scale: 60
     - _Noise_Strength: 10
     - _QueueControl: 0
