@@ -62,7 +62,7 @@ Material:
     - _Thickness: 0.06
     - _Thickness_Falloff: 0.01
     m_Colors:
-    - _Lava_Color: {r: 32, g: 19.760855, b: 0, a: 0}
+    - _Lava_Color: {r: 64, g: 39.52171, b: 0, a: 0}
     - _Rock_Color: {r: 0.41509426, g: 0.025453912, b: 0.025453912, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
